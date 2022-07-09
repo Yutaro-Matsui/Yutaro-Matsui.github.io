@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/final.css">
+    <title>最終課題</title>
+</head>
+
+<body>
+    <header>
+        <h1>最終課題 今日のランチガチャ</h1>
+    </header>
+
+    <p>今日のランチガチャで、あなたの「今日の昼ご飯」を決めちゃおう！</p>
+
+    <div>
+        <button type="button" onclick="TodaysLunch()">昼ご飯を決める</button>
+
+        <img src="jpeg" id="img" height="300" width="400" alt="">
+
+        <br>
+        <span id="gohan"></span> <span id="answer"></span> <span id="desu"></span> <span id="rare"></span>
+
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th></th>
+                <th>確率</th>
+            </tr>
+            <tr>
+                <th>大当たり</th>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <th>当たり</th>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <th>外れではない</th>
+                <td>70%</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./js/final.js"></script>
+</body>
+
+</html>
